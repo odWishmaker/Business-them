@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Gotham - Black';
+    src: url('../font/Gotham-Black.eot');
+    src: url('../font/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gotham-Black.woff2') format('woff2'),
+        url('../font/Gotham-Black.woff') format('woff'),
+        url('../font/Gotham-Black.ttf') format('truetype'),
+        url('../font/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Bold';
+    src: url('../font/BrandonGrotesque-Bold.eot');
+    src: url('../font/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('../font/BrandonGrotesque-Bold.woff') format('woff'),
+        url('../font/BrandonGrotesque-Bold.ttf') format('truetype'),
+        url('../font/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../font/Lato-Bold.eot');
+    src: url('../font/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lato-Bold.woff2') format('woff2'),
+        url('../font/Lato-Bold.woff') format('woff'),
+        url('../font/Lato-Bold.ttf') format('truetype'),
+        url('../font/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans - Light';
+    src: url('../font/OpenSans-Light.eot');
+    src: url('../font/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Light.woff2') format('woff2'),
+        url('../font/OpenSans-Light.woff') format('woff'),
+        url('../font/OpenSans-Light.ttf') format('truetype'),
+        url('../font/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../font/Lato-Light.eot');
+    src: url('../font/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lato-Light.woff2') format('woff2'),
+        url('../font/Lato-Light.woff') format('woff'),
+        url('../font/Lato-Light.ttf') format('truetype'),
+        url('../font/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-Regular.eot');
+    src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Regular.woff2') format('woff2'),
+        url('../font/OpenSans-Regular.woff') format('woff'),
+        url('../font/OpenSans-Regular.ttf') format('truetype'),
+        url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../font/Lato-Regular.eot');
+    src: url('../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lato-Regular.woff2') format('woff2'),
+        url('../font/Lato-Regular.woff') format('woff'),
+        url('../font/Lato-Regular.ttf') format('truetype'),
+        url('../font/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body  {
+    font-family: 'OpenSans', 'Arial', 'Helvetica', 'sans-serif';
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn_img {
+    float: left;
+    margin: 22px 0 23px 0;
+    width: 50px;
+    height: 48px;
+}
+
+.navigation {
+    float: right;
+    padding: 12px 20px 12px 20px;
+    margin: 26px 0 0 0;
+    color: #868686;
+    font-family: Lato;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation:hover  {
+    background: #ffbb42;
+    color: #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.request__bg {
+    float: left;
+    width: 100%;
+    height: 589px; 
+    //height: 651px;  это пробывал сделать через градиент как сказали на уроке но получилось без него
+    //background: linear-gradient(to bottom, #709dca 90%, #ffffff 10%);
+    background: #709dca;
+}
+
+.section__size {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__text {
+    color: #ffffff;
+    text-align: center;
+    padding: 110px 0 0 0;
+}
+
+.header__title__text {
+    display: block;
+    font-family: "Gotham - Black";
+    font-size: 35px;
+    letter-spacing: -0.9px;
+    text-transform: uppercase;
+}
+
+.header__paragrah__text {
+    font-family: "Open Sans - Light";
+}
+
+.header__input {
+    padding: 0 10px 0 41px;
+    input {
+        width: 239px;
+        height: 46px;
+        color: #a9a9a9;
+        text-align: left;
+        font-size: 13px;
+        background-color: white;
+        border: 0px;
+        border-radius: 2px;    
+        padding: 0 0 0 42px;
+        margin: 33px 10px 0 0;
+        background-position: 15px;
+    }
+}
+
+.input__name {
+    background: url(../img/man.png) no-repeat;
+}
+
+.input__email {
+    background: url(../img/mail.png) no-repeat;
+}
+
+.input__number {
+    background: url(../img/Phune_Number.png) no-repeat;
+}
+
+.button__header {
+    width: 211px;
+    height: 46px;
+    background:#ffbb42;
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button__header:hover {
+    border: 2px solid white;
+}
+
+.laptop {
+    width: 647px;
+    height: 343px;
+    margin: 67px 0px 0px 262px;
+    background: url(../img/laptop.png);
+}
+
+.laptop__img  {
+    width: 445px;
+    height: 264px;
+    margin: 18px 0 0 102px;
+    background: url(../img/laptop_img.png);
+    position: absolute;
+}
+
+.button__circle {
+    padding: 24px 0 0 547px;
+    div {
+        display: inline-block;
+        padding: 12px 0 0 12px;
+        margin: 0 10px 0 0;
+        border: 2px solid #dedfe0;
+        border-radius: 50%;
+    }
+    div:hover {
+        border: 2px solid #1ca8dd;
+        cursor: pointer;
+    }
+}
