@@ -74,7 +74,7 @@ body {
 .navigation {
   float: right;
   padding: 12px 20px 12px 20px;
-  margin: 26px 0 0 0;
+  margin-top: 26px;
   color: #868686;
   font-family: Lato;
   font-size: 14px;
@@ -105,7 +105,7 @@ body {
 .header__text {
   color: #ffffff;
   text-align: center;
-  padding: 110px 0 0 0;
+  padding-top: 110px;
 }
 
 .header__title__text {
@@ -133,7 +133,7 @@ body {
   background-color: white;
   border: 0px;
   border-radius: 2px;
-  padding: 0 0 0 42px;
+  padding-left: 42px;
   margin: 33px 10px 0 0;
   background-position: 15px;
 }
@@ -203,24 +203,26 @@ body {
 }
 
 .title__ourservicse {
-  padding: 105px 0 0 0;
+  display: block;
+  padding-top: 105px;
   color: #394b50;
-  text-align: center;
   font-family: "Gotham - Black";
   font-size: 30px;
   letter-spacing: -0.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .text__ourservicse {
+  display: block;
   color: #394b50;
   line-height: 22px;
   text-align: center;
 }
 
 .wraper__ourservicse .svg__icon {
-  fill: #709dca;
   float: left;
+  fill: #709dca;
   width: 43px;
   height: 44px;
 }
@@ -230,19 +232,19 @@ body {
 }
 
 .wraper__block_1 {
-  padding: 79px 0 0 0;
+  padding-top: 79px;
   width: 525px;
   float: left;
 }
 
 .wraper__block_2 {
-  padding: 79px 0 0 0;
+  padding-top: 79px;
   width: 525px;
   float: right;
 }
 
 .title__our_services {
-  padding: 0 0 0 82px;
+  padding-left: 82px;
   color: #394b50;
   font-family: Lato;
   line-height: 22px;
@@ -259,8 +261,7 @@ body {
 
 .bg__about_us {
   width: 100%;
-  height: 623px;
-  margin: 150px 0 0 0;
+  margin-top: 150px;
   background-color: #ffc155;
 }
 
@@ -294,7 +295,7 @@ body {
 }
 
 .text__about_us {
-  padding: 28px 0 0 0;
+  padding-top: 28px;
   display: block;
   color: #ffffff;
   line-height: 24px;
@@ -302,7 +303,7 @@ body {
 }
 
 .button__about_us {
-  margin: 33px 0 0 0;
+  margin-top: 33px;
   color: #ffffff;
   font-family: Lato;
   text-align: center;
@@ -320,7 +321,6 @@ body {
 
 .bg__choos_your_price {
   width: 100%;
-  height: 898px;
   background-color: #e7edf3;
 }
 
@@ -329,18 +329,15 @@ body {
   margin: 0 auto;
 }
 
-.block__choos_your_price {
-  padding: 167px 0 0 0;
-  text-align: center;
-}
-
 .title__choos_your_price {
+  padding-top: 167px;
   display: block;
   color: #394b50;
   font-family: "Gotham - Black";
   font-size: 30px;
   letter-spacing: -0.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .title_text__choos_your_price {
@@ -349,6 +346,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   font-family: "Lato - Light";
+  text-align: center;
 }
 
 .choos__plan {
@@ -360,14 +358,13 @@ body {
 }
 .choos__plan .choos__plan_1 {
   display: block;
-  width: 329px;
-  margin: 16px 0 0 31px;
-  padding: 16px 0 0 0;
+  margin-top: 16px;
+  padding-top: 16px;
   border-top: 1px solid #e2e9f0;
 }
 
 .title__plan {
-  padding: 57px 0 30px 0;
+  margin-bottom: 30px;
   font-size: 25px;
 }
 
@@ -392,7 +389,7 @@ body {
 
 .month {
   display: block;
-  padding: -10px 0 0 0;
+  padding-top: -10px;
   color: #818b95;
   font-size: 15px;
   font-family: "Lato - Light";
@@ -400,17 +397,18 @@ body {
 }
 
 .block_1__choos_your_price {
+  box-sizing: border-box;
   display: inline-block;
-  margin: 79px 0 0 0;
+  margin: 79px 0 194px 0;
+  padding: 57px 31px 48px 31px;
   width: 391px;
-  height: 488px;
   border: 1px solid #ccd5df;
   background-color: #ffffff;
   text-align: center;
 }
 
 .choos__button {
-  margin: 35px 0 0 0;
+  margin-top: 35px;
   width: 131px;
   height: 42px;
   color: #ffffff;
@@ -443,23 +441,15 @@ body {
   color: #8eb8e2;
 }
 
-.how_it_works {
-  max-width: 1190px;
-  margin: 0 auto;
-}
-
-.position__how_it_works {
-  padding: 155px 0 0 0;
-  text-align: center;
-}
-
 .title__how_it_works {
+  padding-top: 155px;
   display: block;
   color: #394b50;
   font-size: 30px;
   letter-spacing: -0.75px;
   text-transform: uppercase;
   font-family: "Gotham - Black";
+  text-align: center;
 }
 
 .text__how_it_works {
@@ -468,82 +458,71 @@ body {
   font-size: 18px;
   line-height: 22px;
   font-family: "Lato - Light";
+  text-align: center;
+}
+
+.how_it_works {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.how_it_works svg {
+  margin-bottom: 102px;
 }
 
 .headphones {
-  float: left;
-  margin: 123px 0 0 73px;
   width: 67px;
   height: 57px;
   fill: #709dca;
 }
 
 .arrow1 {
-  float: left;
-  margin: 68px 63px 0 50px;
+  margin: 68px 0 0 210px;
   width: 141px;
   height: 53px;
   background: url(../img/arrow1.png);
+  position: absolute;
 }
 
 .lock {
-  float: left;
-  margin: 115px 0 0 0;
   width: 55px;
   height: 62px;
   fill: #709dca;
 }
 
 .arrow2 {
-  float: left;
-  margin: 167px 67px 0 67px;
+  margin: 191px 0 0 510px;
   width: 141px;
   height: 53px;
-  background: url(../img/arrow2.png);
+  background: url(../img/arrow1.png);
+  position: absolute;
+  transform: rotate(180deg);
 }
 
 .cloud {
-  float: left;
-  margin: 124px 0 0 0;
   width: 78px;
   height: 57px;
   fill: #709dca;
 }
 
 .arrow3 {
-  float: left;
-  margin: 68px 50px 0 63px;
+  margin: 68px 0 0 800px;
   width: 141px;
   height: 53px;
-  background: url(../img/arrow3.png);
+  background: url(../img/arrow1.png);
+  position: absolute;
 }
 
 .like {
-  float: left;
-  margin: 118px 0 0 0;
   width: 65px;
   height: 63px;
   fill: #709dca;
 }
 
-.block__step1 {
-  float: left;
-  padding: 67px 0 0 0;
-}
-
-.block__step2 {
-  float: left;
-  padding: 67px 0 0 104px;
-}
-
-.block__step3 {
-  float: left;
-  padding: 67px 0 0 127px;
-}
-
-.block__step4 {
-  float: left;
-  padding: 67px 0 0 107px;
+.block__step {
+  display: inline-block;
+  margin-top: 118px;
+  width: 24%;
+  text-align: center;
 }
 
 .title__step {
@@ -551,9 +530,7 @@ body {
   color: #394b50;
   font-family: "Lato";
   font-size: 20px;
-  font-weight: 700;
   line-height: 22px;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -566,15 +543,18 @@ body {
   line-height: 22px;
 }
 
+.wrap {
+  text-align: center;
+  margin-top: 91px;
+}
+
 .button__how_it_works {
   width: 165px;
   height: 46px;
-  margin: 91px 0 0 510px;
   background-color: #ffbb42;
   border: 0px;
   color: #ffffff;
   font-family: "Lato";
-  text-align: center;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -582,7 +562,7 @@ body {
 .bg__happy_clients {
   width: 100%;
   height: 908px;
-  margin: 149px 0 0 0;
+  margin-top: 149px;
   background: #ffc155;
 }
 
@@ -591,29 +571,28 @@ body {
   margin: 0 auto;
 }
 
-.block__title_text {
-  padding: 141px 0 0 0;
-  color: #ffffff;
-  text-align: center;
-}
-.block__title_text .happy_clients__title {
+.happy_clients__title {
+  padding-top: 141px;
   display: block;
+  color: #ffffff;
   font-family: "Gotham - Black";
   font-size: 30px;
   letter-spacing: -0.75px;
   text-transform: uppercase;
+  text-align: center;
 }
-.block__title_text .happy_clients__text {
-  width: 378px;
-  height: 47px;
-  line-height: 22px;
+
+.happy_client__text {
+  display: block;
+  color: #ffffff;
+  text-align: center;
 }
 
 .block__comment {
   float: left;
   width: 567px;
   height: 241px;
-  margin: 58px 0 0 0;
+  margin-top: 58px;
   background: #ffffff;
 }
 
@@ -687,7 +666,7 @@ body {
   float: left;
   width: 567px;
   height: 241px;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
   background: #ffffff;
 }
 
@@ -723,7 +702,7 @@ body {
 
 .title__newsletter {
   display: block;
-  padding: 154px 0 0 0;
+  padding-top: 154px;
   font-family: "Gotham - Black";
   font-size: 30px;
   letter-spacing: -0.75px;
@@ -736,33 +715,28 @@ body {
 }
 
 .newsletter__input {
-  margin: 38px 0 0 0;
+  margin-top: 38px;
 }
 
 .input__name_newsletter {
   width: 308px;
-  height: 47px;
   background: url(../img/man.png) no-repeat;
-  padding: 0 0 0 42px;
-  margin: 0 10px 0 0;
+  padding: 21px 0 17px 42px;
+  margin-right: 10px;
   background-position: 15px;
+  font-size: 13px;
   border: 1px solid #cbcbcb;
 }
 
 .input__email_newsletter {
   width: 388px;
-  height: 47px;
   background: url(../img/mail.png) no-repeat;
-  padding: 0 0 0 42px;
-  margin: 0 10px 0 0;
   background-position: 15px;
-  background-position: 15px;
-  border: 1px solid #cbcbcb;
 }
 
 .button__newsletter {
   width: 218px;
-  height: 47px;
+  padding: 19px 0 18px 0;
   background: #ffbb42;
   color: #ffffff;
   font-family: "Lato";
@@ -775,18 +749,19 @@ body {
 .bg__newsletter {
   width: 1102px;
   height: 549px;
-  margin: 53px 0 0 0;
+  margin-top: 53px;
   background: url(../img/map.png);
-  position: absolute;
+  position: relative;
 }
 
 .circle__newsletter {
   width: 280px;
   height: 290px;
-  margin: 91px 0 0 412px;
-  border-radius: 140px;
+  top: 40px;
+  left: 412PX;
+  border-radius: 50%;
   background: #394b50;
-  position: relative;
+  position: absolute;
 }
 .circle__newsletter span {
   display: block;
@@ -814,11 +789,11 @@ body {
 }
 
 .btn_img__newsletter {
-  float: left;
-  margin: 17px 0 0 526px;
   width: 50px;
   height: 48px;
-  position: relative;
+  top: 348px;
+  right: 526px;
+  position: absolute;
 }
 
 .size__footer {
@@ -827,36 +802,40 @@ body {
 }
 
 .line__footer {
-  margin: 220px 0 0 0;
+  margin-top: 220px;
   border: 1px solid #e3e7ec;
 }
 
 .nav__footer {
-  padding: 68px 0 0 220px;
+  padding-top: 68px;
+  text-align: center;
 }
-.nav__footer span {
+.nav__footer a {
   padding: 0 20px 0 0;
   color: #394b50;
   font-family: "Lato";
   text-transform: uppercase;
+  text-decoration: none;
 }
 .nav__footer span:last-child {
   padding: 0;
 }
 
-.phone_svg__footer {
-  margin: 31px 0 0 500px;
+.number {
+  text-align: center;
+  margin-top: 31px;
 }
 
 .number__footer {
-  padding: 0 0 0 7px;
+  padding-left: 7px;
   color: #394b50;
   font-family: "Lato";
   font-size: 23px;
 }
 
 .block__logo_footer {
-  margin: 23px 0 0 542px;
+  margin-top: 23px;
+  text-align: center;
 }
 .block__logo_footer svg {
   margin: 0 13px 0 0;
@@ -865,16 +844,13 @@ body {
   margin: 0;
 }
 
-.bg__copyrightr {
+.copyrightr__text {
   width: 100%;
-  height: 45px;
-  margin: 52px 0 0 0;
-  background: #709dca;
-  text-align: center;
-}
-.bg__copyrightr .text__copyrightr {
   display: inline-block;
-  margin: 12px 0 0 0;
+  margin-top: 52px;
+  padding: 12px 0 12px 0;
+  background: #709dca;
   color: #ffffff;
   line-height: 24px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
