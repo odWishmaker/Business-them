@@ -102,22 +102,22 @@ body {
   margin: 0 auto;
 }
 
-.header__text {
-  color: #ffffff;
-  text-align: center;
-  padding-top: 110px;
-}
-
 .header__title__text {
   display: block;
+  padding-top: 110px;
   font-family: "Gotham - Black";
   font-size: 35px;
   letter-spacing: -0.9px;
   text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
 }
 
 .header__paragrah__text {
+  display: block;
   font-family: "Open Sans - Light";
+  color: #ffffff;
+  text-align: center;
 }
 
 .header__input {
@@ -220,13 +220,14 @@ body {
   text-align: center;
 }
 
-.wraper__ourservicse .svg__icon {
+.svg__icon {
   float: left;
   fill: #709dca;
   width: 43px;
   height: 44px;
 }
-.wraper__ourservicse svg:hover {
+
+svg:hover {
   fill: #f6772c;
   cursor: pointer;
 }
@@ -243,17 +244,24 @@ body {
   float: right;
 }
 
+.wrap__ourservicse {
+  float: left;
+}
+
 .title__our_services {
-  padding-left: 82px;
+  display: block;
+  padding-left: 39px;
   color: #394b50;
   font-family: Lato;
   line-height: 22px;
-  text-align: left;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .text__our_services {
-  padding: 21px 0 0 81px;
+  display: block;
+  padding: 21px 0 0 39px;
+  width: 440px;
   color: #7b7b7b;
   line-height: 22px;
   text-align: left;
