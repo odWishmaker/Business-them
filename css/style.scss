@@ -521,41 +521,16 @@ svg:hover {
     fill: #709dca;
 }
 
-.arrow1 {
-    margin: 68px 0 0 210px;
-    width: 141px;
-    height: 53px;
-    background: url(../img/arrow1.png);
-    position: absolute;
-}
-
 .lock {
     width: 55px;
     height: 62px;
     fill: #709dca;
 }
 
-.arrow2 {
-    margin: 191px 0 0 510px;
-    width: 141px;
-    height: 53px;
-    background: url(../img/arrow1.png);
-    position: absolute;
-    transform: rotate(180deg);
-}
-
 .cloud {
     width: 78px;
     height: 57px;
     fill: #709dca;
-}
-
-.arrow3 {
-    margin: 68px 0 0 800px;
-    width: 141px;
-    height: 53px;
-    background: url(../img/arrow1.png);
-    position: absolute;
 }
 
 .like {
@@ -568,8 +543,38 @@ svg:hover {
     display: inline-block;
     margin-top: 118px;
     width: 24%;
+    position: relative;
     text-align: center;
 }
+
+.arrow1 {
+    top: -50px;
+    left: 215px;
+    width: 141px;
+    height: 53px;
+    background: url(../img/arrow1.png);
+    position: absolute;
+}
+
+.arrow2 {
+    top: 65px;
+    left: 230px;
+    width: 141px;
+    height: 53px;
+    background: url(../img/arrow1.png);
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.arrow3 {
+    top: -50px;
+    left: 215px;
+    width: 141px;
+    height: 53px;
+    background: url(../img/arrow1.png);
+    position: absolute;
+}
+
 
 .title__step {
     display: block;
